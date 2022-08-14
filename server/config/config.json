@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "anjayable14",
-    "database": "challenge_chap9_db",
-    "host": "localhost",
+    "username": "cddqyzvsnnxasp",
+    "password": "6829d2ca7bbe344c79ce33cda1b9380290c96ac232dab98fa1e0683e932b3dcf",
+    "database": "d4psm0a3f5sgbp",
+    "host": "ec2-23-23-182-238.compute-1.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {
@@ -19,5 +19,11 @@
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
+  },
+  "dialectOptions": {
+    "ssl": {
+      "require": true,
+      "rejectUnauthorized": false
+    }
   }
 }
