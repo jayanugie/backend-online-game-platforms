@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "sequelize db:migrate --env production"
   },
   "author": "group-2",
   "license": "ISC",
