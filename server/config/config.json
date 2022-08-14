@@ -1,24 +1,27 @@
 {
   "development": {
-    "username": "cddqyzvsnnxasp",
-    "password": "6829d2ca7bbe344c79ce33cda1b9380290c96ac232dab98fa1e0683e932b3dcf",
-    "database": "d4psm0a3f5sgbp",
-    "host": "ec2-23-23-182-238.compute-1.amazonaws.com",
-    "dialect": "postgres"
+    "username": "lplfcmomceuumc",
+    "password": "ed3fc98fe2fc03fd8ab3ac292346d7cb441f78855e43d938b87d2cf9898768c1",
+    "database": "dce98lsb9ipl1h",
+    "host": "ec2-50-19-255-190.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "lplfcmomceuumc",
+    "password": "ed3fc98fe2fc03fd8ab3ac292346d7cb441f78855e43d938b87d2cf9898768c1",
+    "database": "dce98lsb9ipl1h",
+    "host": "ec2-50-19-255-190.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "lplfcmomceuumc",
+    "password": "ed3fc98fe2fc03fd8ab3ac292346d7cb441f78855e43d938b87d2cf9898768c1",
+    "database": "dce98lsb9ipl1h",
+    "host": "ec2-50-19-255-190.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432
   },
   "dialectOptions": {
     "ssl": {
