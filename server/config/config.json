@@ -21,12 +21,12 @@
     "database": "dce98lsb9ipl1h",
     "host": "ec2-50-19-255-190.compute-1.amazonaws.com",
     "dialect": "postgres",
-    "port": 5432
-  },
-  "dialectOptions": {
-    "ssl": {
-      "require": true,
-      "rejectUnauthorized": false
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
   }
 }
